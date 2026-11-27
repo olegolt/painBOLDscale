@@ -1,3 +1,13 @@
-The data in this folder (everything below data/ except data/external/) is released under CC BY 4.0:
-https://creativecommons.org/licenses/by/4.0/
-Files in data/external/ come from third parties and keep their own licences; see data/README.md.
+Copyright (c) 2026 Ole Goltermann, Lars Keuter, Jonathan Jessberger, Leonard Asan, Dominika Ronceray, Ulf Baumgärtner, Christian Büchel
+
+The data in this folder (everything below data/ except data/external/) and the figures in results/figures/ are
+released under the Creative Commons Attribution 4.0 International licence (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/ (legal code: https://creativecommons.org/licenses/by/4.0/legalcode).
+
+You may share and adapt the material for any purpose, including commercially, if you give appropriate credit,
+link to the licence and indicate if you made changes. Please credit it as:
+
+  Goltermann O, Keuter L, Jessberger J, Asan L, Ronceray D, Baumgaertner U, Buechel C. Pain-evoked neural activity scales with subjective pain across individuals.
+  Data and code: https://github.com/olegolt/painBOLDscale
+
+Files in data/external/ come from third parties and keep their own licences; see data/external/README.md.

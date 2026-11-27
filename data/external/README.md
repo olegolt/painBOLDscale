@@ -1,3 +1,4 @@
+<!-- TODO before making the repo public: add source and licence of templates/T1w_group_template.nii.gz -->
 # Third-party files
 
 Put the following files here if they are not already present. They are not part of the CC BY release unless the

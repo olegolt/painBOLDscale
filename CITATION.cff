@@ -1,11 +1,32 @@
 cff-version: 1.2.0
-message: "If you use this code or data, please cite the paper."
+message: "If you use this code or data, please cite the paper (preprint) and this repository."
 title: "Pain-evoked neural activity scales with subjective pain across individuals: code and data"
 authors:
-  - family-names: "<LAST NAME>"
-    given-names: "<FIRST NAME>"
+  - family-names: "Goltermann"
+    given-names: "Ole"
+    affiliation: "Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf, Hamburg, Germany; Max Planck School of Cognition, Leipzig, Germany"
+    email: "ole.goltermann@maxplanckschools.de"
+  - family-names: "Keuter"
+    given-names: "Lars"
+    affiliation: "Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf, Hamburg, Germany"
+  - family-names: "Jessberger"
+    given-names: "Jonathan"
+    affiliation: "Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf, Hamburg, Germany"
+  - family-names: "Asan"
+    given-names: "Leonard"
+    affiliation: "Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf, Hamburg, Germany"
+  - family-names: "Ronceray"
+    given-names: "Dominika"
+    affiliation: "Institute of Affective and Cognitive Neuroscience, Medical School Hamburg, Hamburg, Germany"
+  - family-names: "Baumgärtner"
+    given-names: "Ulf"
+    affiliation: "Institute of Affective and Cognitive Neuroscience, Medical School Hamburg, Hamburg, Germany"
+  - family-names: "Büchel"
+    given-names: "Christian"
+    affiliation: "Institute of Systems Neuroscience, University Medical Center Hamburg-Eppendorf, Hamburg, Germany"
 version: 1.0.0
 date-released: "2026-12-01"
 license: MIT
 repository-code: "https://github.com/olegolt/painBOLDscale"
-doi: "<ZENODO DOI>"
+# doi: add the Zenodo DOI of the release here once it exists
+# preferred-citation: add the preprint here (type: article, doi: ...) once it is online

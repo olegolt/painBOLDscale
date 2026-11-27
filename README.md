@@ -1,6 +1,6 @@
 # Pain-evoked neural activity scales with subjective pain across individuals
 
-Code and data for the paper (add link / DOI). With the shared data you can redraw every figure of the paper and
+Code and data for the preprint *Pain-evoked neural activity scales with subjective pain across individuals* (Goltermann, Keuter et al.; link follows). With the shared data you can redraw every figure of the paper and
 supplement and rebuild the reported tables on a laptop in a few minutes. The permutation maps and the LASSO-PCR
 model are included as results; refitting them needs the participants' images, which are not shared.
 
@@ -80,5 +80,13 @@ IDs, 4D images, free text in image headers and files above GitHub's size limit.
 
 ## Citation and licence
 
-Code: MIT (`LICENSE`). Data: CC BY 4.0 (`data/LICENSE`); third-party files keep their own licences
-(`data/external/README.md`). See `CITATION.cff`.
+Code: MIT (`LICENSE`). Data and figures: CC BY 4.0 (`data/LICENSE`), so please credit the authors. Third-party files keep
+their own licences (`data/external/README.md`).
+
+If you use the code, data or figures, please cite the paper and this repository (`CITATION.cff`; GitHub shows a
+"Cite this repository" button):
+
+> Goltermann O\*, Keuter L\*, Jessberger J, Asan L, Ronceray D, Baumgärtner U, Büchel C. Pain-evoked neural activity scales with subjective pain across individuals. (preprint, link follows)
+> \* contributed equally
+
+Contact: Ole Goltermann, ole.goltermann@maxplanckschools.de

@@ -19,3 +19,15 @@ nohup.out
 data/external/nps/
 results/*
 !results/figures/
+!results/supplementary/
+results/supplementary/*
+!results/supplementary/*/
+results/supplementary/*/*
+!results/supplementary/*/figures/
+results/figures/*.svg
+results/figures/*.pdf
+results/supplementary/*/figures/*.pdf
+results/supplementary/*/figures/*.svg
+results/supplementary/*/figures/*.pdf
+results/supplementary/*/figures/*.svg
+*.egg-info/
