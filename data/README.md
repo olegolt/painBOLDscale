@@ -34,8 +34,7 @@ permutations), `rho_fwe` / `z_fwe` (voxelwise FWE 0.05), `rho_z3p1` / `z_z3p1` (
 
 ## Participants
 
-101 participants entered the imaging analyses; two further participants were excluded for strong head movement
-(coughing / panic) during scanning. Their data are not part of this folder. The pseudonym number is the rank of
+101 participants entered the imaging analyses. Their data are not part of this folder. The pseudonym number is the rank of
 the original ID, so the row order of the tables is the same as in the analysis; the key linking pseudonyms to
 original IDs is not shared.
 
