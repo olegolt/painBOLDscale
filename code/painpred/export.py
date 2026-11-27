@@ -216,6 +216,9 @@ def export_public_data(project: Project, data_root, id_map_path=None, include_th
     for name in ("local_peaks.csv", "figure_peaks.tsv"):
         sanitized_table(project.f2 / name, out / "figure2" / name, id_map, missing, sep="," if name.endswith(".csv") else "\t")
 
+    # Figure 3: region table (needs the atlas, so it is shared as a table; the atlas itself is not)
+    sanitized_table(project.f3 / "count4_regions.tsv", out / "figure3" / "count4_regions.tsv", id_map, missing)
+
     # Figure 4: LASSO-PCR results
     for name in LASSO_FILES:
         source, target = project.f4 / name, out / "figure4" / name

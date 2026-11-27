@@ -28,6 +28,11 @@ python -m painpred --data data --results results --steps figure1 figure2 figure6
 
 The final figures are `results/figures/Figure*.{png,pdf,svg}`; tables are under `results/figure*/`.
 
+**Files that are not shared.** The NPS weight map (CANlab) and the Neuromorphometrics atlas are third-party files and
+are not part of this repository. Everything runs without them: the NPS scores are shared, the NPS brain map in
+Figure 4 stays empty with a note, and the peak and region tables are read from `data/` instead of being rebuilt.
+To draw or rebuild them, put the files in `data/external/` (see `data/external/README.md`).
+
 ## What needs the raw images
 
 | Step | With shared data |

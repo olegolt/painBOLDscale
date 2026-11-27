@@ -58,11 +58,15 @@ def _cmap():
 def add_brain_block(ax, surface_img, cerebellum_img, limit, title, colorbar_label, metrics: pd.Series) -> None:
     ax.set_axis_off()
     ax.text(0.00, 1.015, title, transform=ax.transAxes, ha="left", va="bottom", fontsize=SIZES["block_title"], fontweight="bold")
-    for rect, image in (([0.00, 0.43, 1.00, 0.48], surface_img), ([0.08, 0.19, 0.84, 0.24], cerebellum_img)):
-        inset = ax.inset_axes(rect)
-        inset.imshow(image, interpolation="lanczos", aspect="equal")
-        inset.set_axis_off()
-    brain.add_scaled_colorbar(ax.inset_axes([0.15, 0.135, 0.70, 0.020]), _cmap(), limit, colorbar_label)
+    if surface_img is None:  # weight map not available (the NPS weights cannot be redistributed)
+        ax.text(0.5, 0.64, f"{title} weight map not shown:\nthe weights are not part of the shared data\n(see data/external/README.md)",
+                transform=ax.transAxes, ha="center", va="center", fontsize=14, color="0.35", linespacing=1.4)
+    else:
+        for rect, image in (([0.00, 0.43, 1.00, 0.48], surface_img), ([0.08, 0.19, 0.84, 0.24], cerebellum_img)):
+            inset = ax.inset_axes(rect)
+            inset.imshow(image, interpolation="lanczos", aspect="equal")
+            inset.set_axis_off()
+        brain.add_scaled_colorbar(ax.inset_axes([0.15, 0.135, 0.70, 0.020]), _cmap(), limit, colorbar_label)
     ax.text(0.02, 0.025, f"Pearson r = {metrics['pearson_r']:.2f}   Spearman ρ = {metrics['spearman_rho']:.2f}   "
             f"CV R² = {metrics['cross_validated_r2']:.2f}", transform=ax.transAxes, ha="left", va="top", fontsize=13, linespacing=1.22)
 
@@ -107,10 +111,19 @@ def run(project: Project) -> dict:
     correspondence.to_csv(project.f4 / "pattern_correspondence.tsv", sep="\t", index=False)
 
     import matplotlib.pyplot as plt
-    nps_img, lasso_img = load_3d(project.nps_weights, "NPS weight map"), load_3d(project.lasso_raw_weights, "LASSO-PCR weight map")
-    nps_limit, lasso_limit = display_limit(nps_img), display_limit(lasso_img)
-    print(f"Display limits (99th |weight| percentile): NPS {nps_limit:.6g}, LASSO-PCR {lasso_limit:.6g}")
-    nps_panels, lasso_panels = brain_panels(nps_img, "NPS", nps_limit), brain_panels(lasso_img, "LASSO-PCR", lasso_limit)
+    lasso_img = load_3d(project.lasso_raw_weights, "LASSO-PCR weight map")
+    lasso_limit = display_limit(lasso_img)
+    lasso_panels = brain_panels(lasso_img, "LASSO-PCR", lasso_limit)
+    if project.nps_weights is None:
+        if not project.public:
+            raise MissingInputError(f"NPS weight map not found: {' or '.join(str(p) for p in project.nps_weight_candidates)}")
+        print("NPS weights not found: the NPS brain map is left empty (the weights cannot be redistributed; see data/external/README.md).")
+        nps_limit, nps_panels = None, (None, None)
+    else:
+        nps_img = load_3d(project.nps_weights, "NPS weight map")
+        nps_limit = display_limit(nps_img)
+        nps_panels = brain_panels(nps_img, "NPS", nps_limit)
+    print(f"Display limits (99th |weight| percentile): NPS {nps_limit}, LASSO-PCR {lasso_limit:.6g}")
 
     L = LAYOUT
     fig = plt.figure(figsize=L["figsize"], facecolor="white")

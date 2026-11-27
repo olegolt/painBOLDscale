@@ -25,14 +25,29 @@ def _supplement(project: Project, overwrite: bool) -> None:
 NEEDS_IMAGES = {"hoeppli_mask", "massuni", "lasso_pcr"}
 
 
+def _peaks(project: Project, overwrite: bool) -> None:
+    if project.public and not project.atlas_nii.exists():
+        print("Atlas not found: using the shared peak table (figure2/local_peaks.csv). Add the atlas to data/external/atlas/ to rebuild it.")
+        return
+    peaks.run(project)
+
+
+def _figure3_overlap(project: Project, overwrite: bool) -> None:
+    overlap.count_overlap(project)
+    if project.public and not project.atlas_nii.exists():
+        print("Atlas not found: the table of count-4 regions is not rebuilt (add the atlas to data/external/atlas/).")
+        return
+    overlap.count4_regions(project)
+
+
 STEPS: dict[str, Callable[[Project, bool], object]] = {
     "hoeppli_mask": lambda p, o: hoeppli.build_mask(p, force=o),
     "figure1": lambda p, o: fig1.run(p),
     "massuni": lambda p, o: massuni.run_all(p, overwrite=o),
-    "figure2_peaks": lambda p, o: peaks.run(p),
+    "figure2_peaks": _peaks,
     "figure2_overlap": lambda p, o: overlap.run_reference_overlap(p),
     "figure2": lambda p, o: fig2.run(p, overwrite=o),
-    "figure3_overlap": lambda p, o: (overlap.count_overlap(p), overlap.count4_regions(p)),
+    "figure3_overlap": _figure3_overlap,
     "figure3": lambda p, o: fig3.run(p),
     "lasso_pcr": lambda p, o: signatures.run_lasso_pcr(p, overwrite=o),
     "figure4": lambda p, o: fig4.run(p),

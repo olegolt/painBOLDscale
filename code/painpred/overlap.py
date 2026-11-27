@@ -47,7 +47,7 @@ def reference_maps(project: Project):
 
 def run_reference_overlap(project: Project) -> pd.DataFrame:
     """Overlap of the FWE-significant primary map with the reference maps -> ``figure2/overlap``."""
-    project.require("peaks")
+    project.require("overlap")
     out = project.f2_overlap
     (out / "resampled_reference_masks").mkdir(parents=True, exist_ok=True)
     (out / "overlap_masks").mkdir(parents=True, exist_ok=True)
@@ -134,6 +134,7 @@ def count_overlap(project: Project) -> np.ndarray:
 def count4_regions(project: Project) -> pd.DataFrame:
     """Neuromorphometrics regions containing voxels that are significant in all four analyses."""
     from nibabel.processing import resample_from_to
+    project.require("atlas")
     count_img = load_3d(project.f3 / "overlap_count.nii.gz", "overlap count map")
     count = np.rint(np.asarray(count_img.get_fdata(), dtype=np.float64))
     mask = np.isfinite(count) & (count == TARGET_COUNT)
