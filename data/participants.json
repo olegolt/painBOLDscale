@@ -1,0 +1,5 @@
+{
+  "participant_id": {
+    "Description": "Pseudonym (sub-p<rank>). The rank follows the order of the original IDs."
+  }
+}

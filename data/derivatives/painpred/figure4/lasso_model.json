@@ -1,0 +1,16 @@
+{
+  "n_subjects": 101,
+  "training_contrast": "0053",
+  "training_rating": "pain_48_arm",
+  "selected_n_pcs": 10,
+  "selected_alpha": 0.001,
+  "inner_cv_mse_for_full_model_selection": 71.73624015469207,
+  "raw_space_intercept": 75.16993451004983,
+  "number_of_mask_voxels": 320312,
+  "number_of_nonzero_raw_voxel_weights": 320312,
+  "raw_weight_min": -0.0011751637298387002,
+  "raw_weight_max": 0.001389223217083974,
+  "backprojection_max_abs_prediction_difference": 7.588220967136294e-06,
+  "raw_weight_map_used_for_signature_scores": "lasso_weights_raw.nii.gz",
+  "standardized_weight_map_visualization_only": "lasso_weights_standardized.nii.gz"
+}

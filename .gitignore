@@ -1,0 +1,21 @@
+# Never commit participant-level images or private files
+data/sourcedata/
+private_id_map.tsv
+*.joblib
+*.npy
+*.npz
+
+# Results are rebuilt by the notebook
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+.DS_Store
+*.log
+nohup.out
+
+data/external/nps/
+results/*
+!results/figures/

@@ -1,0 +1,13 @@
+{
+  "Name": "Pain-evoked neural activity scales with subjective pain across individuals: shared data",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "GeneratedBy": [
+    {
+      "Name": "painpred",
+      "Version": "1.0.0"
+    }
+  ],
+  "Description": "Group-level maps and participant-level summary scores. No individual images are included."
+}

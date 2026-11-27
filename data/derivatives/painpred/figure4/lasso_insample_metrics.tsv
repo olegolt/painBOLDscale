@@ -1,0 +1,3 @@
+evaluation	contrast	condition	rating	prediction_scale	n	observed_mean	observed_sd	predicted_mean	predicted_sd	pearson_r	pearson_p_parametric_descriptive	spearman_rho	spearman_p_parametric_descriptive	mae	rmse	insample_r2
+fullsample_insample	53	48 °C arm	pain_48_arm	raw	101	85.80858086	10.30254516	85.80857086	6.71007967	0.65154404	1.60441398e-13	0.699481625	4.065842914e-16	6.310135668	7.776835094	0.424509578
+fullsample_insample	53	48 °C arm	pain_48_arm	bounded	101	85.80858086	10.30254516	85.71495819	6.483052254	0.6586617513	7.072725303e-14	0.6998456478	3.867954977e-16	6.216513857	7.72001817	0.4328878326

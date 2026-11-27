@@ -1,0 +1,14 @@
+numpy>=1.26
+scipy>=1.11
+pandas>=2.1
+scikit-learn>=1.3
+matplotlib>=3.8
+nibabel>=5.2
+nilearn>=0.10.4
+SUITPy>=1.3
+joblib>=1.3
+tqdm>=4.66
+notebook>=7
+-e ./code
+# Only needed to rebuild the Hoeppli mask from the original maps (not needed with the shared data):
+# antspyx>=0.4

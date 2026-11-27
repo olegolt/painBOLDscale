@@ -1,0 +1,122 @@
+effect_direction	peak_rank_within_direction	cluster_rank_within_direction	cluster_id	peak_rank_within_cluster	cluster_extent_voxels	cluster_extent_mm3	mni_x_mm	mni_y_mm	mni_z_mm	spearman_rho	z_value	p_fwe_voxelwise	atlas_label_index	neuromorphometrics_region	atlas_assignment_method	distance_to_atlas_label_mm	minimum_peak_distance_mm
+positive	1	1	6	1	7363	24850.1	6	-30	-12	0.6631	7.9035	0.0001	35	Brain Stem	exact	0	8
+positive	2	1	6	2	7363	24850.1	12	4.5	6	0.6461	7.6088	0.0001	44	Right Cerebral White Matter	exact	0	8
+positive	3	1	6	3	7363	24850.1	7.5	-15	-12	0.6445	7.5817	0.0001	61	Right Ventral DC	exact	0	8
+positive	4	1	6	4	7363	24850.1	9	-21	-4.5	0.6169	7.1276	0.0001	61	Right Ventral DC	exact	0	8
+positive	5	1	6	5	7363	24850.1	-1.5	-24	-10.5	0.6081	6.9874	0.0001	62	Left Ventral DC	exact	0	8
+positive	6	1	6	6	7363	24850.1	-12	1.5	12	0.6078	6.9832	0.0001	37	Left Caudate	exact	0	8
+positive	7	1	6	7	7363	24850.1	-25.5	3	-12	0.6078	6.9828	0.0001	45	Left Cerebral White Matter	exact	0	8
+positive	8	1	6	8	7363	24850.1	-7.5	-7.5	-12	0.6022	6.8953	0.0001	62	Left Ventral DC	exact	0	8
+positive	9	1	6	9	7363	24850.1	-34.5	-3	-4.5	0.5993	6.851	0.0001	45	Left Cerebral White Matter	exact	0	8
+positive	10	1	6	10	7363	24850.1	12	1.5	13.5	0.599	6.8467	0.0001	36	Right Caudate	exact	0	8
+positive	11	1	6	11	7363	24850.1	22.5	0	3	0.5795	6.5502	0.0002	55	Right Pallidum	exact	0	8
+positive	12	1	6	12	7363	24850.1	-10.5	-16.5	0	0.5781	6.5297	0.0002	60	Left Thalamus Proper	exact	0	8
+positive	13	1	6	13	7363	24850.1	-13.5	-9	19.5	0.5712	6.4281	0.0002	37	Left Caudate	exact	0	8
+positive	14	1	6	14	7363	24850.1	36	16.5	-6	0.5657	6.3475	0.0003	102	Right AIns anterior insula	exact	0	8
+positive	15	1	6	15	7363	24850.1	16.5	-10.5	19.5	0.5651	6.3386	0.0003	36	Right Caudate	exact	0	8
+positive	16	1	6	16	7363	24850.1	-13.5	13.5	3	0.5636	6.3172	0.0003	37	Left Caudate	exact	0	8
+positive	17	1	6	17	7363	24850.1	-31.5	6	3	0.5625	6.3009	0.0003	45	Left Cerebral White Matter	exact	0	8
+positive	18	1	6	18	7363	24850.1	-19.5	1.5	1.5	0.5576	6.2302	0.0004	56	Left Pallidum	exact	0	8
+positive	19	1	6	19	7363	24850.1	21	19.5	-6	0.5566	6.216	0.0004	57	Right Putamen	exact	0	8
+positive	20	1	6	20	7363	24850.1	-34.5	16.5	-4.5	0.556	6.2077	0.0004	103	Left AIns anterior insula	exact	0	8
+positive	21	1	6	21	7363	24850.1	3	-4.5	12	0.5516	6.1437	0.0004	44	Right Cerebral White Matter	exact	0	8
+positive	22	1	6	22	7363	24850.1	21	13.5	6	0.5433	6.0276	0.0006	44	Right Cerebral White Matter	exact	0	8
+positive	23	1	6	23	7363	24850.1	31.5	1.5	-7.5	0.5411	5.996	0.0008	44	Right Cerebral White Matter	exact	0	8
+positive	24	1	6	24	7363	24850.1	22.5	3	-12	0.5377	5.9485	0.001	44	Right Cerebral White Matter	exact	0	8
+positive	25	1	6	25	7363	24850.1	-25.5	-3	7.5	0.5344	5.9023	0.0012	58	Left Putamen	exact	0	8
+positive	26	1	6	26	7363	24850.1	25.5	10.5	-6	0.5221	5.7337	0.0028	57	Right Putamen	exact	0	8
+positive	27	1	6	27	7363	24850.1	-7.5	-18	-13.5	0.5212	5.7223	0.0029	62	Left Ventral DC	exact	0	8
+positive	28	1	6	28	7363	24850.1	31.5	-13.5	0	0.5172	5.6674	0.0036	57	Right Putamen	exact	0	8
+positive	29	1	6	29	7363	24850.1	12	-1.5	-3	0.5136	5.6184	0.0042	44	Right Cerebral White Matter	exact	0	8
+positive	30	1	6	30	7363	24850.1	18	7.5	18	0.511	5.5836	0.005199	36	Right Caudate	exact	0	8
+positive	31	1	6	31	7363	24850.1	39	4.5	-1.5	0.507	5.5302	0.006399	102	Right AIns anterior insula	exact	0	8
+positive	32	1	6	32	7363	24850.1	30	-21	6	0.4981	5.4127	0.009699	44	Right Cerebral White Matter	exact	0	8
+positive	33	1	6	33	7363	24850.1	-33	27	-3	0.4945	5.3655	0.012099	165	Left OrIFG orbital part of the inferior frontal gyrus	exact	0	8
+positive	34	1	6	34	7363	24850.1	30	6	6	0.4895	5.3003	0.016598	57	Right Putamen	exact	0	8
+positive	35	1	6	35	7363	24850.1	36	18	-15	0.4803	5.1815	0.029097	102	Right AIns anterior insula	exact	0	8
+positive	36	1	6	36	7363	24850.1	4.5	-7.5	1.5	0.4803	5.1806	0.029097	59	Right Thalamus Proper	exact	0	8
+positive	37	1	6	37	7363	24850.1	6	-16.5	12	0.4781	5.1528	0.031597	59	Right Thalamus Proper	exact	0	8
+positive	38	2	4	1	6340	21397.5	-12	-48	-13.5	0.6315	7.3642	0.0001	39	Left Cerebellum Exterior	exact	0	8
+positive	39	2	4	2	6340	21397.5	-22.5	-57	-19.5	0.6142	7.0847	0.0001	39	Left Cerebellum Exterior	exact	0	8
+positive	40	2	4	3	6340	21397.5	-4.5	-51	-4.5	0.6018	6.89	0.0001	71	Cerebellar Vermal Lobules I-V	exact	0	8
+positive	41	2	4	4	6340	21397.5	-6	-64.5	-18	0.5888	6.6899	0.0002	71	Cerebellar Vermal Lobules I-V	exact	0	8
+positive	42	2	4	5	6340	21397.5	-33	-52.5	-31.5	0.5884	6.6845	0.0002	39	Left Cerebellum Exterior	exact	0	8
+positive	43	2	4	6	6340	21397.5	34.5	-51	-27	0.5873	6.6678	0.0002	38	Right Cerebellum Exterior	exact	0	8
+positive	44	2	4	7	6340	21397.5	-27	-51	-22.5	0.5824	6.5937	0.0002	39	Left Cerebellum Exterior	exact	0	8
+positive	45	2	4	8	6340	21397.5	-18	-66	-19.5	0.5803	6.562	0.0002	39	Left Cerebellum Exterior	exact	0	8
+positive	46	2	4	9	6340	21397.5	4.5	-54	-9	0.5772	6.5163	0.0002	71	Cerebellar Vermal Lobules I-V	exact	0	8
+positive	47	2	4	10	6340	21397.5	-33	-60	-24	0.571	6.4247	0.0002	39	Left Cerebellum Exterior	exact	0	8
+positive	48	2	4	11	6340	21397.5	45	-54	-34.5	0.5707	6.4197	0.0002	38	Right Cerebellum Exterior	exact	0	8
+positive	49	2	4	12	6340	21397.5	4.5	-69	-45	0.5536	6.1725	0.0004	73	Cerebellar Vermal Lobules VIII-X	exact	0	8
+positive	50	2	4	13	6340	21397.5	15	-45	-15	0.5478	6.0905	0.0004	38	Right Cerebellum Exterior	exact	0	8
+positive	51	2	4	14	6340	21397.5	3	-58.5	-27	0.5473	6.0828	0.0004	40	Right Cerebellum White Matter	exact	0	8
+positive	52	2	4	15	6340	21397.5	-9	-43.5	-27	0.5454	6.057	0.0006	41	Left Cerebellum White Matter	exact	0	8
+positive	53	2	4	16	6340	21397.5	16.5	-58.5	-16.5	0.5404	5.9867	0.0008	38	Right Cerebellum Exterior	exact	0	8
+positive	54	2	4	17	6340	21397.5	-1.5	-60	-4.5	0.5392	5.9691	0.0008	71	Cerebellar Vermal Lobules I-V	exact	0	8
+positive	55	2	4	18	6340	21397.5	-18	-42	-27	0.5315	5.8622	0.0014	41	Left Cerebellum White Matter	exact	0	8
+positive	56	2	4	19	6340	21397.5	-33	-42	-30	0.5285	5.8214	0.0018	39	Left Cerebellum Exterior	exact	0	8
+positive	57	2	4	20	6340	21397.5	28.5	-64.5	-21	0.5252	5.7766	0.0019	38	Right Cerebellum Exterior	exact	0	8
+positive	58	2	4	21	6340	21397.5	25.5	-40.5	-28.5	0.5201	5.7072	0.0031	38	Right Cerebellum Exterior	exact	0	8
+positive	59	2	4	22	6340	21397.5	1.5	-69	-34.5	0.5184	5.6835	0.0035	73	Cerebellar Vermal Lobules VIII-X	exact	0	8
+positive	60	2	4	23	6340	21397.5	-18	-54	-25.5	0.5168	5.6628	0.0038	39	Left Cerebellum Exterior	exact	0	8
+positive	61	2	4	24	6340	21397.5	18	-69	-18	0.5098	5.5685	0.005499	38	Right Cerebellum Exterior	exact	0	8
+positive	62	2	4	25	6340	21397.5	6	-70.5	-15	0.4957	5.3817	0.011299	38	Right Cerebellum Exterior	exact	0	8
+positive	63	2	4	26	6340	21397.5	-49.5	-55.5	-33	0.4841	5.2296	0.023198	39	Left Cerebellum Exterior	exact	0	8
+positive	64	2	4	27	6340	21397.5	-15	-33	-30	0.4773	5.1426	0.032997	41	Left Cerebellum White Matter	exact	0	8
+positive	65	3	7	1	4134	13952.2	-9	22.5	28.5	0.5956	6.7938	0.0001	139	Left MCgG middle cingulate gyrus	exact	0	8
+positive	66	3	7	2	4134	13952.2	25.5	-22.5	69	0.5949	6.7826	0.0001	182	Right PrG precentral gyrus	exact	0	8
+positive	67	3	7	3	4134	13952.2	6	15	33	0.591	6.7239	0.0001	138	Right MCgG middle cingulate gyrus	exact	0	8
+positive	68	3	7	4	4134	13952.2	4.5	-3	70.5	0.5901	6.7106	0.0002	192	Right SMC supplementary motor cortex	exact	0	8
+positive	69	3	7	5	4134	13952.2	-10.5	6	36	0.5831	6.6052	0.0002	45	Left Cerebral White Matter	exact	0	8
+positive	70	3	7	6	4134	13952.2	28.5	-6	67.5	0.5769	6.512	0.0002	190	Right SFG superior frontal gyrus	exact	0	8
+positive	71	3	7	7	4134	13952.2	-3	-6	70.5	0.5645	6.3297	0.0003	193	Left SMC supplementary motor cortex	exact	0	8
+positive	72	3	7	8	4134	13952.2	6	22.5	36	0.5569	6.2206	0.0004	192	Right SMC supplementary motor cortex	exact	0	8
+positive	73	3	7	9	4134	13952.2	4.5	0	55.5	0.5496	6.1158	0.0004	192	Right SMC supplementary motor cortex	exact	0	8
+positive	74	3	7	10	4134	13952.2	24	-40.5	64.5	0.5468	6.0757	0.0004	198	Right SPL superior parietal lobule	exact	0	8
+positive	75	3	7	11	4134	13952.2	27	-13.5	73.5	0.5312	5.8586	0.0015	182	Right PrG precentral gyrus	exact	0	8
+positive	76	3	7	12	4134	13952.2	19.5	-6	66	0.5277	5.8105	0.0018	44	Right Cerebral White Matter	exact	0	8
+positive	77	3	7	13	4134	13952.2	15	-1.5	72	0.526	5.7874	0.0019	190	Right SFG superior frontal gyrus	exact	0	8
+positive	78	3	7	14	4134	13952.2	31.5	-16.5	66	0.5236	5.7549	0.0025	182	Right PrG precentral gyrus	exact	0	8
+positive	79	3	7	15	4134	13952.2	33	-27	72	0.5164	5.6571	0.004	176	Right PoG postcentral gyrus	exact	0	8
+positive	80	3	7	16	4134	13952.2	-9	-3	37.5	0.516	5.6515	0.004	45	Left Cerebral White Matter	exact	0	8
+positive	81	3	7	17	4134	13952.2	-9	6	45	0.5138	5.6219	0.0042	193	Left SMC supplementary motor cortex	exact	0	8
+positive	82	3	7	18	4134	13952.2	-10.5	21	37.5	0.4997	5.4345	0.008599	45	Left Cerebral White Matter	exact	0	8
+positive	83	3	7	19	4134	13952.2	10.5	-10.5	67.5	0.4958	5.3823	0.011299	44	Right Cerebral White Matter	exact	0	8
+positive	84	3	7	20	4134	13952.2	7.5	15	46.5	0.4898	5.3047	0.016298	44	Right Cerebral White Matter	exact	0	8
+positive	85	3	7	21	4134	13952.2	-12	-7.5	63	0.4747	5.1095	0.036896	193	Left SMC supplementary motor cortex	exact	0	8
+positive	86	4	19	1	948	3199.5	-12	-52.5	63	0.5559	6.2055	0.0004	45	Left Cerebral White Matter	exact	0	8
+positive	87	4	19	2	948	3199.5	-24	-40.5	54	0.5382	5.9553	0.001	45	Left Cerebral White Matter	exact	0	8
+positive	88	4	19	3	948	3199.5	-19.5	-34.5	70.5	0.531	5.8552	0.0016	177	Left PoG postcentral gyrus	exact	0	8
+positive	89	4	19	4	948	3199.5	-13.5	-40.5	49.5	0.5244	5.7654	0.002	169	Left PCu precuneus	exact	0	8
+positive	90	4	19	5	948	3199.5	-19.5	-45	73.5	0.5236	5.7545	0.0025	177	Left PoG postcentral gyrus	exact	0	8
+positive	91	4	19	6	948	3199.5	-9	-49.5	55.5	0.5064	5.5222	0.006499	169	Left PCu precuneus	exact	0	8
+positive	92	5	24	1	602	2031.8	-30	-52.5	-51	0.6181	7.1467	0.0001	39	Left Cerebellum Exterior	exact	0	8
+positive	93	6	21	1	158	533.2	-16.5	0	72	0.5646	6.3314	0.0003	191	Left SFG superior frontal gyrus	exact	0	8
+positive	94	6	21	2	158	533.2	-12	-9	72	0.4837	5.2253	0.023698	191	Left SFG superior frontal gyrus	exact	0	8
+positive	95	7	11	1	114	384.8	27	-57	-58.5	0.5208	5.7166	0.0029	38	Right Cerebellum Exterior	exact	0	8
+positive	96	8	28	1	90	303.8	-43.5	-10.5	31.5	0.4962	5.3878	0.011199	45	Left Cerebral White Matter	exact	0	8
+positive	97	9	13	1	85	286.9	9	-37.5	-25.5	0.5217	5.728	0.0029	35	Brain Stem	exact	0	8
+positive	98	9	13	2	85	286.9	19.5	-34.5	-27	0.5064	5.5222	0.006499	38	Right Cerebellum Exterior	exact	0	8
+positive	99	10	17	1	81	273.4	1.5	-36	-45	0.5581	6.2379	0.0004	35	Brain Stem	exact	0	8
+positive	100	10	17	2	81	273.4	-6	-39	-48	0.5272	5.8036	0.0018	35	Brain Stem	exact	0	8
+positive	101	11	14	1	52	175.5	10.5	7.5	66	0.5355	5.9178	0.0011	44	Right Cerebral White Matter	exact	0	8
+positive	102	12	2	1	42	141.8	49.5	-10.5	54	0.4968	5.3959	0.010799	176	Right PoG postcentral gyrus	exact	0	8
+positive	103	13	22	1	24	81	-13.5	-28.5	39	0.504	5.4914	0.007099	167	Left PCgG posterior cingulate gyrus	exact	0	8
+positive	104	14	25	1	22	74.2	-33	-43.5	69	0.4864	5.2596	0.020698	199	Left SPL superior parietal lobule	exact	0	8
+positive	105	15	18	1	14	47.2	-9	-4.5	-1.5	0.5009	5.4495	0.008099	60	Left Thalamus Proper	exact	0	8
+positive	106	16	1	1	13	43.9	64.5	-39	22.5	0.5071	5.5321	0.006299	194	Right SMG supramarginal gyrus	exact	0	8
+positive	107	17	23	1	13	43.9	-15	-21	-6	0.5067	5.5273	0.006399	62	Left Ventral DC	exact	0	8
+positive	108	18	26	1	13	43.9	-30	34.5	36	0.4857	5.2508	0.021398	45	Left Cerebral White Matter	exact	0	8
+positive	109	19	27	1	10	33.8	-33	39	40.5	0.492	5.3326	0.013899	143	Left MFG middle frontal gyrus	exact	0	8
+positive	110	20	5	1	5	16.9	43.5	13.5	19.5	0.4902	5.3095	0.015898	44	Right Cerebral White Matter	exact	0	8
+positive	111	21	8	1	3	10.1	37.5	-28.5	58.5	0.4737	5.097	0.038996	176	Right PoG postcentral gyrus	exact	0	8
+positive	112	22	12	1	3	10.1	31.5	-36	-34.5	0.4804	5.1819	0.028997	38	Right Cerebellum Exterior	exact	0	8
+positive	113	23	20	1	3	10.1	-9	-13.5	66	0.4743	5.1037	0.038096	45	Left Cerebral White Matter	exact	0	8
+positive	114	24	29	1	3	10.1	-52.5	-36	22.5	0.473	5.088	0.040596	175	Left PO parietal operculum	exact	0	8
+positive	115	25	9	1	2	6.8	37.5	40.5	31.5	0.4734	5.0924	0.039896	142	Right MFG middle frontal gyrus	exact	0	8
+positive	116	26	15	1	2	6.8	9	-54	63	0.4701	5.0502	0.046395	44	Right Cerebral White Matter	exact	0	8
+positive	117	27	3	1	1	3.4	52.5	-1.5	51	0.4785	5.1586	0.030897	182	Right PrG precentral gyrus	exact	0	8
+positive	118	28	10	1	1	3.4	36	64.5	-10.5	0.4698	5.0473	0.046695	136	Right LOrG lateral orbital gyrus	exact	0	8
+positive	119	29	16	1	1	3.4	7.5	31.5	30	0.4714	5.0675	0.043696	152	Right MSFG superior frontal gyrus medial segment	exact	0	8
+negative	1	1	1	1	19	64.1	12	66	6	-0.5103	-5.5749	0.005499	44	Right Cerebral White Matter	exact	0	8
+negative	2	2	2	1	13	43.9	-18	63	9	-0.4876	-5.2761	0.018898	191	Left SFG superior frontal gyrus	exact	0	8

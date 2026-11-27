@@ -1,0 +1,11 @@
+{
+  "Name": "painpred group-level derivatives",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "derivative",
+  "GeneratedBy": [
+    {
+      "Name": "painpred",
+      "Version": "1.0.0"
+    }
+  ]
+}

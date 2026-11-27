@@ -1,0 +1,5 @@
+panel	region	voxel_i_nearest	voxel_j_nearest	voxel_k_nearest	voxel_i_continuous	voxel_j_continuous	voxel_k_continuous	mni_x_requested	mni_y_requested	mni_z_requested	mni_x_nearest_voxel	mni_y_nearest_voxel	mni_z_nearest_voxel	r_value_at_requested_coordinate	abs_r_value	selection_mode	source_map_type
+right aMCC	Cortex	56	94	70	56	94	70	6	15	33	6	15	33	0.5910128951	0.5910128951	fixed MNI coordinate	Unthresholded
+right midbrain	Brainstem	56	64	40	56	64	40	6	-30	-12	6	-30	-12	0.6631253958	0.6631253958	fixed MNI coordinate	Unthresholded
+left cerebellar lobule V	Cerebellum	68	52	39	68	52	39	-12	-48	-13.5	-12	-48	-13.5	0.6314927936	0.6314927936	fixed MNI coordinate	Unthresholded
+right thalamus	Thalamus	54	70	45	54	70	45.33333333	9	-21	-4	9	-21	-4.5	0.6134428183	0.6134428183	fixed MNI coordinate	Unthresholded
